@@ -20,6 +20,6 @@ The debt avalanche method, on the other hand, involves paying off debts in order
 # Debt Order Strategy
 ![image](https://user-images.githubusercontent.com/67231332/230741341-dfd5e5c9-4d85-4acf-a6d2-6e74a7514335.png)
 
-#Monthly Breakdown
+# Monthly Breakdown
 Click on "Monthly Breakdown" button to detailed payments for each month
 ![image](https://user-images.githubusercontent.com/67231332/232291769-06ee23db-0fa0-4a77-9a79-ef41bb282046.png)
