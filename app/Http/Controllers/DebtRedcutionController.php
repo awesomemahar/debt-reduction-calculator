@@ -16,7 +16,6 @@ class DebtRedcutionController extends Controller
     }
     public function reductionPost(Request $request)
     {
-
         $resp = [];
         $resp['error'] = true;
         $start_date = $request->get('date');
@@ -149,6 +148,7 @@ class DebtRedcutionController extends Controller
             }
             //dd($final_data);
             $max_months = max($months_to_payoff_array);
+            // dd($final_data,$start_date,$type,$max_months,$months_to_payoff_array);
             if ($final_data) {
                 $resp['error'] = false;
                 $resp['result'] = view('reduction_result', compact('final_data', 'start_date', 'type', 'max_months'))->render();
